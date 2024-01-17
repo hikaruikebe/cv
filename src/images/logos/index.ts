@@ -16,6 +16,9 @@ import TastyCloudLogo from "./tastycloud.png";
 import YearProgressLogo from "./yearprogress.svg";
 import Minimal from "./minimal.svg";
 
+import AmazonAdsLogo from "./amazonads.png";
+import UTokyoLogo from "./utokyoLogo.png";
+
 export {
   ConsultlyLogo,
   AmbitLogo,
@@ -34,4 +37,6 @@ export {
   TastyCloudLogo,
   YearProgressLogo,
   Minimal,
+  AmazonAdsLogo,
+  UTokyoLogo,
 };
