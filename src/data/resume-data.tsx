@@ -12,7 +12,7 @@ export const RESUME_DATA = {
   summary:
     "As a new grad Software/ML Engineer, I aspire to design and develop projects that make an impact on our world. I like to take ownership of my projects but am always open to feedback so that I can absorb and learn as much as possible. I thrive in a collaborative environment where we all work towards a common goal as a team.",
   // "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  // avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+  avatarUrl: "https://avatars.githubusercontent.com/u/97716565?v=4",
   // personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "hikaru.ikebe@columbia.edu",
