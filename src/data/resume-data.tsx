@@ -112,7 +112,7 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "GoParkMe",
-      techStack: [, "AWS", "CI/CD", "Python", "Computer Vision"],
+      techStack: ["AWS", "CI/CD", "Python", "Computer Vision"],
       description:
         "Fullstack web app that navigates clients to vacant parking spots, which are detected using live CCTV and Mask-RCNN (computer vision AI) techniques",
       // logo: ConsultlyLogo,
@@ -134,7 +134,7 @@ export const RESUME_DATA = {
     },
     {
       title: "NYC Restaurant Recommender",
-      techStack: [, "AWS", "Python"],
+      techStack: ["AWS", "Python"],
       description:
         "Chatbot that uses Yelp API data to recommend restaurants to users based on their preferences.",
       // logo: JarockiMeLogo,
