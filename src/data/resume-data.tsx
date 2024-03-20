@@ -89,6 +89,7 @@ export const RESUME_DATA = {
   skills: [
     "Python",
     "Java",
+    "JavaScript",
     "TypeScript",
     "SQL",
     "UNIX",
@@ -104,17 +105,14 @@ export const RESUME_DATA = {
     "TensorFlow",
     "MongoDB",
     "CUDA",
+    "React",
+    "Express",
+    "NodeJS",
   ],
   projects: [
     {
       title: "GoParkMe",
-      techStack: [
-        "School Project",
-        "AWS",
-        "CI/CD",
-        "Python",
-        "Computer Vision",
-      ],
+      techStack: [, "AWS", "CI/CD", "Python", "Computer Vision"],
       description:
         "Fullstack web app that navigates clients to vacant parking spots, which are detected using live CCTV and Mask-RCNN (computer vision AI) techniques",
       // logo: ConsultlyLogo,
@@ -125,14 +123,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Photo Album Web Application",
-      techStack: [
-        "School Project",
-        "AWS",
-        "CI/CD",
-        "Python",
-        "JavaScript",
-        "Computer Vision",
-      ],
+      techStack: [, "AWS", "CI/CD", "Python", "JavaScript", "Computer Vision"],
       description:
         "Photo album web app that allows users to upload and search photos using text and voice commands using CV and NLP techniques",
       // logo: MonitoLogo,
@@ -143,7 +134,7 @@ export const RESUME_DATA = {
     },
     {
       title: "NYC Restaurant Recommender",
-      techStack: ["School Project", "AWS", "Python"],
+      techStack: [, "AWS", "Python"],
       description:
         "Chatbot that uses Yelp API data to recommend restaurants to users based on their preferences.",
       // logo: JarockiMeLogo,
