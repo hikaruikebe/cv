@@ -123,7 +123,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Photo Album Web Application",
-      techStack: [, "AWS", "CI/CD", "Python", "JavaScript", "Computer Vision"],
+      techStack: ["AWS", "CI/CD", "Python", "JavaScript", "Computer Vision"],
       description:
         "Photo album web app that allows users to upload and search photos using text and voice commands using CV and NLP techniques",
       // logo: MonitoLogo,
