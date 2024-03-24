@@ -111,8 +111,28 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Tabelog 100",
+      techStack: [
+        "CI/CD",
+        "JavaScript",
+        "React",
+        "Node",
+        "Express",
+        "SQL",
+        "Big Data",
+        "Web Scraping",
+      ],
+      description:
+        "React web app that introduces exclusive top 100 award winning restaurants in Japan in multiple cuisines/genres.",
+      // logo: ConsultlyLogo,
+      link: {
+        label: "Tabelog 100",
+        href: "https://tabelog-100.vercel.app/",
+      },
+    },
+    {
       title: "GoParkMe",
-      techStack: ["AWS", "CI/CD", "Python", "Computer Vision"],
+      techStack: ["AWS", "CI/CD", "Python", "Computer Vision", "Big Data"],
       description:
         "Fullstack web app that navigates clients to vacant parking spots, which are detected using live CCTV and Mask-RCNN (computer vision AI) techniques",
       // logo: ConsultlyLogo,
@@ -123,7 +143,14 @@ export const RESUME_DATA = {
     },
     {
       title: "Photo Album Web Application",
-      techStack: ["AWS", "CI/CD", "Python", "JavaScript", "Computer Vision"],
+      techStack: [
+        "AWS",
+        "CI/CD",
+        "Python",
+        "JavaScript",
+        "Computer Vision",
+        "Big Data",
+      ],
       description:
         "Photo album web app that allows users to upload and search photos using text and voice commands using CV and NLP techniques",
       // logo: MonitoLogo,
@@ -134,7 +161,7 @@ export const RESUME_DATA = {
     },
     {
       title: "NYC Restaurant Recommender",
-      techStack: ["AWS", "Python"],
+      techStack: ["AWS", "Python", "Big Data"],
       description:
         "Chatbot that uses Yelp API data to recommend restaurants to users based on their preferences.",
       // logo: JarockiMeLogo,
