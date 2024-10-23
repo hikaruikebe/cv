@@ -51,7 +51,17 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Amazon",
+      company: "Amazon Web Services",
+      // link: "https://parabol.co",
+      badges: ["Hybrid"],
+      title: "Software Development Engineer",
+      logo: AmazonAdsLogo,
+      start: "2024",
+      end: "",
+      description: "",
+    },
+    {
+      company: "Amazon Ads",
       // link: "https://parabol.co",
       badges: ["Hybrid"],
       title: "Software Development Engineer Intern",
@@ -59,10 +69,10 @@ export const RESUME_DATA = {
       start: "2023",
       end: "2023",
       description:
-        "Developed a data pipeline for advertisement technologies that successfully ingests over 100 million Amazon user IDs in the US market. Collaborated with senior engineers and product manager to future-proof product and pushed project to production. Technologies: AWS, Python, TypeScript, SQL, Spark",
+        "Developed a data pipeline for advertisement technologies that successfully ingests over 100 million Amazon user IDs in the US market. Collaborated with senior engineers and product manager to future-proof product and pushed project to production.\nTechnologies: AWS, Python, TypeScript, SQL, Spark",
     },
     {
-      company: "Amazon",
+      company: "Amazon Ads",
       // link: "https://clevertech.biz",
       badges: ["Hybrid"],
       title: "Software Development Engineer Intern",
@@ -70,7 +80,7 @@ export const RESUME_DATA = {
       start: "2022",
       end: "2022",
       description:
-        "Constructed cache pipeline to process data for users opting out of targeted advertisements. Architected a system that successfully reads 1 million QPS and writes 15 QPS in US and European markets. Technologies: AWS, Java, TypeScript",
+        "Constructed cache pipeline to process data for users opting out of targeted advertisements. Architected a system that successfully reads 1 million QPS and writes 15 QPS in US and European markets.\nTechnologies: AWS, Java, TypeScript",
       // "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
     },
     {
@@ -82,7 +92,7 @@ export const RESUME_DATA = {
       start: "2020",
       end: "2021",
       description:
-        "Research Convolutional Neural Networks (CNN) and Binary Neural Networks (BNN) and its viability on edge devices. Improved accuracy of vanilla BNN by 0.8% while reducing computation parameters by 73% on CIFAR-10 image dataset. Technologies: Python, PyTorch, TensorFlow",
+        "Research Convolutional Neural Networks (CNN) and Binary Neural Networks (BNN) and its viability on edge devices. Improved accuracy of vanilla BNN by 0.8% while reducing computation parameters by 73% on CIFAR-10 image dataset.\nTechnologies: Python, PyTorch, TensorFlow",
       // "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
     },
   ],
