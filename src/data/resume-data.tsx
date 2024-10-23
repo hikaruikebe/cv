@@ -10,7 +10,7 @@ export const RESUME_DATA = {
   about:
     "Aspiring Software/ML Engineer focused on building products that make an impact on our world.",
   summary:
-    "As a new grad Software/ML Engineer, I aspire to design and develop projects that make an impact on our world. I like to take ownership of my projects but am always open to feedback so that I can absorb and learn as much as possible. I thrive in a collaborative environment where we all work towards a common goal as a team.",
+    "As a new grad Software/ML Engineer, I aspire to design and develop projects that make an impact on our world. I like to take ownership of my projects but am always open to feedback so that I can absorb and learn as much as possible. I thrive in a collaborative environment where we all work towards a common goal.",
   // "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
   avatarUrl: "https://avatars.githubusercontent.com/u/97716565?v=4",
   // personalWebsiteUrl: "https://jarocki.me",
@@ -57,8 +57,9 @@ export const RESUME_DATA = {
       title: "Software Development Engineer",
       logo: AmazonAdsLogo,
       start: "2024",
-      end: "",
+      end: "Current",
       description: "",
+      technologies: "Technologies: React, REST API, Java, TypeScript",
     },
     {
       company: "Amazon Ads",
@@ -69,7 +70,8 @@ export const RESUME_DATA = {
       start: "2023",
       end: "2023",
       description:
-        "Developed a data pipeline for advertisement technologies that successfully ingests over 100 million Amazon user IDs in the US market. Collaborated with senior engineers and product manager to future-proof product and pushed project to production.\nTechnologies: AWS, Python, TypeScript, SQL, Spark",
+        "Developed a data pipeline for advertisement technologies that successfully ingests over 100 million Amazon user IDs in the US market. Collaborated with senior engineers and product manager to future-proof product and pushed project to production.",
+      technologies: "Technologies: AWS, Python, TypeScript, SQL, Spark",
     },
     {
       company: "Amazon Ads",
@@ -80,8 +82,9 @@ export const RESUME_DATA = {
       start: "2022",
       end: "2022",
       description:
-        "Constructed cache pipeline to process data for users opting out of targeted advertisements. Architected a system that successfully reads 1 million QPS and writes 15 QPS in US and European markets.\nTechnologies: AWS, Java, TypeScript",
+        "Constructed cache pipeline to process data for users opting out of targeted advertisements. Architected a system that successfully reads 1 million QPS and writes 15 QPS in US and European markets.",
       // "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+      technologies: "Technologies: AWS, Java, TypeScript, CI/CD",
     },
     {
       company: "The University of Tokyo",
@@ -92,8 +95,9 @@ export const RESUME_DATA = {
       start: "2020",
       end: "2021",
       description:
-        "Research Convolutional Neural Networks (CNN) and Binary Neural Networks (BNN) and its viability on edge devices. Improved accuracy of vanilla BNN by 0.8% while reducing computation parameters by 73% on CIFAR-10 image dataset.\nTechnologies: Python, PyTorch, TensorFlow",
+        "Research Convolutional Neural Networks (CNN) and Binary Neural Networks (BNN) and its viability on edge devices. Improved accuracy of vanilla BNN by 0.8% while reducing computation parameters by 73% on CIFAR-10 image dataset.",
       // "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+      technologies: "Technologies: Python, PyTorch, TensorFlow, CUDA",
     },
   ],
   skills: [

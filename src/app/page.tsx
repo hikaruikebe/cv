@@ -1,5 +1,10 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Card, CardHeader, CardContent } from "@/components/ui/card";
+import {
+  Card,
+  CardHeader,
+  CardContent,
+  CardTechnologies,
+} from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { CommandMenu } from "@/components/command-menu";
 import { Metadata } from "next";
@@ -137,6 +142,9 @@ export default function Page() {
                 <CardContent className="mt-2 text-xs">
                   {work.description}
                 </CardContent>
+                <CardTechnologies className="mt-2 text-xs">
+                  {work.technologies}
+                </CardTechnologies>
               </Card>
             );
           })}

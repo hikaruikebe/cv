@@ -68,6 +68,21 @@ const CardContent = React.forwardRef<
 ));
 CardContent.displayName = "CardContent";
 
+const CardTechnologies = React.forwardRef<
+  HTMLDivElement,
+  React.HTMLAttributes<HTMLDivElement>
+>(({ className, ...props }, ref) => (
+  <div
+    ref={ref}
+    className={cn(
+      "text-pretty font-mono text-xs text-muted-foreground",
+      className,
+    )}
+    {...props}
+  />
+));
+CardTechnologies.displayName = "CardTechnologies";
+
 const CardFooter = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
@@ -83,4 +98,5 @@ export {
   CardTitle,
   CardDescription,
   CardContent,
+  CardTechnologies,
 };
